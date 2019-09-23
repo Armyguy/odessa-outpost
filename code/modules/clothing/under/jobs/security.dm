@@ -36,6 +36,11 @@
 
 	siemens_coefficient = 0.9
 
+/obj/item/clothing/under/rank/security/gorka_ih
+	name = "Ironhammer gorka suit"
+	desc = "A rugged set of vaguely slavic two-tone overwear, made with more rubust materials than the average uniform."
+	icon_state = "gorka_ih"
+
 /obj/item/clothing/under/rank/security/skirt
 	name = "Ironhammer Operative's jumpskirt"
 	desc = "It's made of a slightly sturdier material than standard jumpskirts, to allow for robust protection."
@@ -49,6 +54,24 @@
 	item_state = "ba_suit"
 
 	siemens_coefficient = 0.9
+
+/obj/item/clothing/under/rank/medspec/gorka_ih_med_b
+	name = "Medical Specialist gorka"
+	desc = "A durable, baggy uniform featuring blue medical liverly and stain-resistant coating.  It has the words \"Medical Specialist\" written on its patches."
+	icon_state = "gorka_ih_med_b"
+	item_state = "gorka_ih_med_b"
+
+	permeability_coefficient = 0.50
+	armor = list(melee = 0, bullet = 0, energy = 0, bomb = 0, bio = 10, rad = 0)
+
+/obj/item/clothing/under/rank/medspec/gorka_ih_med_g
+	name = "Medical Specialist gorka"
+	desc = "A durable, baggy uniform featuring green medical liverly and stain-resistant coating.  It has the words \"Medical Specialist\" written on its patches."
+	icon_state = "gorka_ih_med_g"
+	item_state = "gorka_ih_med_g"
+
+	permeability_coefficient = 0.50
+	armor = list(melee = 0, bullet = 0, energy = 0, bomb = 0, bio = 10, rad = 0)
 
 /obj/item/clothing/under/rank/medspec/skirt
 	name = "Medical Specialist's jumpskirt"

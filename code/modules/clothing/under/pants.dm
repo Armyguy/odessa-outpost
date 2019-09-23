@@ -189,3 +189,60 @@
 	name = "camo baggy pants"
 	desc = "A pair of woodland camouflage pants."
 	icon_state = "baggy_camopants"
+
+//gorka
+
+/obj/item/clothing/under/pants/gorka
+	name = "gorka pants"
+	desc = "A pair of baggy, two-tone military style cargo pants featuing elasic at the waitband and leg cuffs."
+	icon_state = "gorka_pants"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_tan
+	name = "tan gorka pants"
+	desc = "A pair of baggy, two-tone military style cargo pants featuing elasic at the waitband and leg cuffs. This time with more dirt flavoring."
+	icon_state = "gorka_pants_tan"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_ss
+	name = "camo gorka pants"
+	desc = "A pair of baggy, two-tone military cargo pants that make you want to use tanks to free hostages."
+	icon_state = "gorka_pants_ss"
+
+/obj/item/clothing/under/pants/gorka_pants_ih
+	name = "Ironhammer gorka pants"
+	desc = "A pair of baggy, two-tone military cargo pants featuing elasic at the waitband and leg cuffs, made from especially robust and blood-resistant fabric."
+	icon_state = "gorka_pants_ih"
+
+/obj/item/clothing/under/pants/gorka_pants_ih_med
+	name = "Medical Specialist gorka pants"
+	desc = "A pair of baggy, two-tone military cargo pants featuing elasic at the waitband and leg cuffs, and IH MedSpec markings. Made from especially robust and blood-resistant fabric."
+	icon_state = "gorka_pants_ih_med"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_crew
+	name = "crew gorka pants"
+	desc = "A pair of baggy, two-tone utility pants featuing elasic at the waitband and leg cuffs."
+	icon_state = "gorka_pants_crew"
+
+/obj/item/clothing/under/pants/gorka_pants_crew_med
+	name = "medical crew gorka pants"
+	desc = "A pair of baggy, two-tone utility pants featuing elasic at the waitband and leg cuffs, medical liverly, and stain resistant coating."
+	icon_state = "gorka_pants_crew_med"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_crew_o
+	name = "orange crew gorka pants"
+	desc = "A pair of baggy, two-tone utility pants featuing elasic at the waitband and leg cuffs, and orange liverly."
+	icon_state = "gorka_pants_crew_o"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_crew_y
+	name = "yellow crew gorka pants"
+	desc = "A pair of baggy, two-tone utility pants featuing elasic at the waitband and leg cuffs, and yellow liverly."
+	icon_state = "gorka_pants_crew_y"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_crew_light
+	name = "light crew gorka pants"
+	desc = "A pair of baggy, fashionable two-tone pants featuing elasic at the waitband and leg cuffs."
+	icon_state = "gorka_pants_crew_light"
+
+/obj/item/clothing/under/pants/gorka/gorka_pants_crew_light_b
+	name = "light blue crew gorka pants"
+	desc = "A pair of baggy, fashionable two-tone clothes with a sporty blue-on-white scheme."
+	icon_state = "gorka_pants_crew_light_b"

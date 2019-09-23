@@ -122,3 +122,65 @@
 
 /obj/item/clothing/under/syndicate/combat
 	name = "combat turtleneck"
+
+//gorka
+
+/obj/item/clothing/under/gorka
+	name = "gorka suit"
+	desc = "A rugged set of vaguely militant and quite slavic two-tone clothes."
+	icon_state = "gorka"
+	item_state = "gorka"
+
+/obj/item/clothing/under/gorka/gorka_tan
+	name = "tan gorka"
+	desc = "A rugged set of vaguely militant and quite slavic two-tone clothes, this time coyote brown on tan."
+	icon_state = "gorka_tan"
+	item_state = "gorka_tan"
+
+/obj/item/clothing/under/gorka/gorka_ss
+	name = "camo gorka"
+	desc = "A rugged set of two-tone military style clothes, looks vaguely German, but smells distantly of removed Chechens."
+	icon_state = "gorka_ss"
+	item_state = "gorka_ss"
+
+/obj/item/clothing/under/gorka/gorka_crew
+	name = "crew gorka"
+	desc = "A rugged set of vaguely militant two-tone grey utility wear."
+	icon_state = "gorka_crew"
+	item_state = "gorka_crew"
+
+/obj/item/clothing/under/gorka/gorka_crew_g
+	name = "green crew gorka"
+	desc = "A rugged set of vaguely militant two-tone grey utility wear with green patches and markings."
+	icon_state = "gorka_crew_g"
+	item_state = "gorka_crew_g"
+
+/obj/item/clothing/under/gorka/gorka_crew_b
+	name = "blue crew gorka"
+	desc = "A rugged set of vaguely militant two-tone grey utility wear with blue patches and markings."
+	icon_state = "gorka_crew_b"
+	item_state = "gorka_crew_b"
+
+/obj/item/clothing/under/gorka/gorka_crew_o
+	name = "orange crew gorka"
+	desc = "A rugged set of vaguely militant two-tone grey utility wear with orange patches and markings."
+	icon_state = "gorka_crew_o"
+	item_state = "gorka_crew_o"
+
+/obj/item/clothing/under/gorka/gorka_crew_y
+	name = "yellow crew gorka"
+	desc = "A rugged set of vaguely militant two-tone grey utility wear with yellow patches and markings. Za Cargonia."
+	icon_state = "gorka_crew_y"
+	item_state = "gorka_crew_y"
+
+/obj/item/clothing/under/gorka/gorka_crew_light
+	name = "light crew gorka"
+	desc = "A fashionable set of vaguely militant two-tone clothes... or it was left in the sun too long."
+	icon_state = "gorka_crew_light"
+	item_state = "gorka_crew_light"
+
+/obj/item/clothing/under/gorka/gorka_crew_light_b
+	name = "light blue crew gorka"
+	desc = "A fashionable set of vaguely militant two-tone clothes with a sporty blue-on-white scheme."
+	icon_state = "gorka_crew_light_b"
+	item_state = "gorka_crew_light_b"

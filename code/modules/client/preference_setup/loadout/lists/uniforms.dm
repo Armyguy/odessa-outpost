@@ -121,3 +121,63 @@
 	allowed_roles = list("Ironhammer Inspector")
 	slot = slot_w_uniform
 	sort_category = "Faction: Ironhammer"
+
+//Gorka
+/datum/gear/uniform/gorka_pants
+	display_name = "gorka pants selection"
+	path = /obj/item/clothing/under/pants/gorka
+	flags = GEAR_HAS_TYPE_SELECTION
+
+/datum/gear/suit/cloakmedical
+	display_name = "gorka moebius medical pants"
+	path = /obj/item/clothing/under/pants/gorka_pants_crew_med
+	allowed_roles = list("Moebius Doctor","Moebius Biolab Officer","Moebius Chemist","Moebius Paramedic")
+	sort_category = "Faction: Moebius"
+
+/datum/gear/uniform/gorka_pants
+	display_name = "gorka ironhammer pants"
+	path = /obj/item/clothing/under/pants/gorka_pants_ih
+	allowed_roles = list("Ironhammer Operative","Ironhammer Commander","Ironhammer Gunnery Sergeant", "Ironhammer Inspector", "Ironhammer Medical Specialist")
+	sort_category = "Faction: Ironhammer"
+
+/datum/gear/uniform/gorka_pants
+	display_name = "gorka ironhammer med pants"
+	path = /obj/item/clothing/under/pants/gorka_pants_ih_med
+	allowed_roles = list("Ironhammer Medical Specialist")
+	sort_category = "Faction: Ironhammer"
+
+
+/datum/gear/suit/gorkajumpsuit
+	display_name = "gorka jumpsuit selection"
+	path = /obj/item/clothing/under/gorka
+	flags = GEAR_HAS_TYPE_SELECTION
+
+/datum/gear/suit/gorkaironhammer
+	display_name = "gorka jumpsuit, ironhammer"
+	path = /obj/item/clothing/under/rank/security/gorka_ih
+	allowed_roles = list("Ironhammer Operative","Ironhammer Commander","Ironhammer Gunnery Sergeant", "Ironhammer Inspector", "Ironhammer Medical Specialist")
+	sort_category = "Faction: Ironhammer"
+
+/datum/gear/suit/gorkaironhammermed
+	display_name = "gorka blue med jumpsuit, ironhammer"
+	path = /obj/item/clothing/under/rank/medspec/gorka_ih_med_b
+	allowed_roles = list("Ironhammer Medical Specialist")
+	sort_category = "Faction: Ironhammer"
+
+/datum/gear/suit/gorkaironhammergreenmed
+	display_name = "gorka green med jumpsuit, ironhammer"
+	path = /obj/item/clothing/under/rank/medspec/gorka_ih_med_g
+	allowed_roles = list("Ironhammer Medical Specialist")
+	sort_category = "Faction: Ironhammer"
+
+/datum/gear/suit/gorkamoebiusmedical
+	display_name = "gorka moebius medical jumpsuit"
+	path = /obj/item/clothing/under/rank/medical/gorka_crew_med
+	allowed_roles = list("Moebius Doctor","Moebius Biolab Officer","Moebius Chemist","Moebius Paramedic")
+	sort_category = "Faction: Moebius"
+
+/datum/gear/suit/gorkamoebiusscientist
+	display_name = "gorka moebius scientist jumpsuit"
+	path = /obj/item/clothing/under/rank/scientist/gorka_crew_sci
+	allowed_roles = list("Moebius Expedition Overseer","Moebius Scientist","Moebius Roboticist")
+	sort_category = "Faction: Moebius"

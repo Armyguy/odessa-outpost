@@ -18,6 +18,12 @@
 	permeability_coefficient = 0.50
 	armor = list(melee = 0, bullet = 0, energy = 0, bomb = 10, bio = 0, rad = 0)
 
+/obj/item/clothing/under/rank/scientist/gorka_crew_sci
+	desc = "A durable, baggy grey uniform sporting research and development patches, ideal for field study with its antiseptic coating."
+	name = "science crew gorka"
+	icon_state = "gorka_crew_sci"
+	item_state = "gorka_crew_sci"
+
 /obj/item/clothing/under/rank/chemist
 	desc = "A orange chemist's shirt complete with tan pants. The fiber offers minor biohazard protection."
 	name = "moebius chemist's uniform"
@@ -56,6 +62,12 @@
 
 	permeability_coefficient = 0.50
 	armor = list(melee = 0, bullet = 0, energy = 0, bomb = 0, bio = 10, rad = 0)
+
+/obj/item/clothing/under/rank/medical/gorka_crew_med
+	desc = "A durable, baggy grey uniform sporting EMS patches and high-visibility strips, featuring a stain resistant coating."
+	name = "medical crew gorka"
+	icon_state = "gorka_crew_med"
+	item_state = "gorka_crew_med"
 
 /obj/item/clothing/under/scrubs
 	name = "blue scrubs"
